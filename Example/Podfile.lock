@@ -1,0 +1,14 @@
+PODS:
+  - NSString+LevenshteinDistance (0.0.1)
+
+DEPENDENCIES:
+  - NSString+LevenshteinDistance (from `../`)
+
+EXTERNAL SOURCES:
+  NSString+LevenshteinDistance:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NSString+LevenshteinDistance: 2b75b4c8cf76b25739696016ed333f1b65341115
+
+COCOAPODS: 0.31.1

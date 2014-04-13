@@ -1,7 +1,7 @@
 pod "NSString+LevenshteinDistance", :path => "../"
 
-target "Demo" do
-end
+#target "NSString+LevenshteinDistanceDemo" do
+#end
 
-target "DemoTests" do
-end
+#target "NSString+LevenshteinDistanceDemoTests" do
+#end

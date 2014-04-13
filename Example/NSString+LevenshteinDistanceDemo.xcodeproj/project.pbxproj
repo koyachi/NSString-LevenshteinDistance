@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		874E4C2618FA9C2500ABE362 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874E4C2518FA9C2500ABE362 /* Foundation.framework */; };
+		874E4C2818FA9C2500ABE362 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874E4C2718FA9C2500ABE362 /* CoreGraphics.framework */; };
+		874E4C2A18FA9C2500ABE362 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874E4C2918FA9C2500ABE362 /* UIKit.framework */; };
+		874E4C3018FA9C2500ABE362 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 874E4C2E18FA9C2500ABE362 /* InfoPlist.strings */; };
+		874E4C3218FA9C2500ABE362 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 874E4C3118FA9C2500ABE362 /* main.m */; };
+		874E4C3618FA9C2500ABE362 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 874E4C3518FA9C2500ABE362 /* AppDelegate.m */; };
+		874E4C3918FA9C2500ABE362 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874E4C3718FA9C2500ABE362 /* Main_iPhone.storyboard */; };
+		874E4C3C18FA9C2500ABE362 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874E4C3A18FA9C2500ABE362 /* Main_iPad.storyboard */; };
+		874E4C3F18FA9C2500ABE362 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 874E4C3E18FA9C2500ABE362 /* ViewController.m */; };
+		874E4C4118FA9C2500ABE362 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874E4C4018FA9C2500ABE362 /* Images.xcassets */; };
+		874E4C4818FA9C2500ABE362 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874E4C4718FA9C2500ABE362 /* XCTest.framework */; };
+		874E4C4918FA9C2500ABE362 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874E4C2518FA9C2500ABE362 /* Foundation.framework */; };
+		874E4C4A18FA9C2500ABE362 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874E4C2918FA9C2500ABE362 /* UIKit.framework */; };
+		874E4C5218FA9C2500ABE362 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 874E4C5018FA9C2500ABE362 /* InfoPlist.strings */; };
+		874E4C5418FA9C2500ABE362 /* NSString_LevenshteinDistanceDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 874E4C5318FA9C2500ABE362 /* NSString_LevenshteinDistanceDemoTests.m */; };
+		C8BC7121E0AF4AFEB5837B2D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A12A4693E54CA79EBFFB35 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		874E4C4B18FA9C2500ABE362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 874E4C1A18FA9C2500ABE362 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 874E4C2118FA9C2500ABE362;
+			remoteInfo = "NSString+LevenshteinDistanceDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26A12A4693E54CA79EBFFB35 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		874E4C2218FA9C2500ABE362 /* NSString+LevenshteinDistanceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSString+LevenshteinDistanceDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		874E4C2518FA9C2500ABE362 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		874E4C2718FA9C2500ABE362 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		874E4C2918FA9C2500ABE362 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		874E4C2D18FA9C2500ABE362 /* NSString+LevenshteinDistanceDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSString+LevenshteinDistanceDemo-Info.plist"; sourceTree = "<group>"; };
+		874E4C2F18FA9C2500ABE362 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		874E4C3118FA9C2500ABE362 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		874E4C3318FA9C2500ABE362 /* NSString+LevenshteinDistanceDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+LevenshteinDistanceDemo-Prefix.pch"; sourceTree = "<group>"; };
+		874E4C3418FA9C2500ABE362 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		874E4C3518FA9C2500ABE362 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		874E4C3818FA9C2500ABE362 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		874E4C3B18FA9C2500ABE362 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		874E4C3D18FA9C2500ABE362 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		874E4C3E18FA9C2500ABE362 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		874E4C4018FA9C2500ABE362 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		874E4C4618FA9C2500ABE362 /* NSString+LevenshteinDistanceDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSString+LevenshteinDistanceDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		874E4C4718FA9C2500ABE362 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		874E4C4F18FA9C2500ABE362 /* NSString+LevenshteinDistanceDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSString+LevenshteinDistanceDemoTests-Info.plist"; sourceTree = "<group>"; };
+		874E4C5118FA9C2500ABE362 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		874E4C5318FA9C2500ABE362 /* NSString_LevenshteinDistanceDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSString_LevenshteinDistanceDemoTests.m; sourceTree = "<group>"; };
+		C90B23614FED4ABABB582A25 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		874E4C1F18FA9C2500ABE362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874E4C2818FA9C2500ABE362 /* CoreGraphics.framework in Frameworks */,
+				874E4C2A18FA9C2500ABE362 /* UIKit.framework in Frameworks */,
+				874E4C2618FA9C2500ABE362 /* Foundation.framework in Frameworks */,
+				C8BC7121E0AF4AFEB5837B2D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874E4C4318FA9C2500ABE362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874E4C4818FA9C2500ABE362 /* XCTest.framework in Frameworks */,
+				874E4C4A18FA9C2500ABE362 /* UIKit.framework in Frameworks */,
+				874E4C4918FA9C2500ABE362 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		874E4C1918FA9C2500ABE362 = {
+			isa = PBXGroup;
+			children = (
+				874E4C2B18FA9C2500ABE362 /* NSString+LevenshteinDistanceDemo */,
+				874E4C4D18FA9C2500ABE362 /* NSString+LevenshteinDistanceDemoTests */,
+				874E4C2418FA9C2500ABE362 /* Frameworks */,
+				874E4C2318FA9C2500ABE362 /* Products */,
+				C90B23614FED4ABABB582A25 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		874E4C2318FA9C2500ABE362 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				874E4C2218FA9C2500ABE362 /* NSString+LevenshteinDistanceDemo.app */,
+				874E4C4618FA9C2500ABE362 /* NSString+LevenshteinDistanceDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		874E4C2418FA9C2500ABE362 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				874E4C2518FA9C2500ABE362 /* Foundation.framework */,
+				874E4C2718FA9C2500ABE362 /* CoreGraphics.framework */,
+				874E4C2918FA9C2500ABE362 /* UIKit.framework */,
+				874E4C4718FA9C2500ABE362 /* XCTest.framework */,
+				26A12A4693E54CA79EBFFB35 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		874E4C2B18FA9C2500ABE362 /* NSString+LevenshteinDistanceDemo */ = {
+			isa = PBXGroup;
+			children = (
+				874E4C3418FA9C2500ABE362 /* AppDelegate.h */,
+				874E4C3518FA9C2500ABE362 /* AppDelegate.m */,
+				874E4C3718FA9C2500ABE362 /* Main_iPhone.storyboard */,
+				874E4C3A18FA9C2500ABE362 /* Main_iPad.storyboard */,
+				874E4C3D18FA9C2500ABE362 /* ViewController.h */,
+				874E4C3E18FA9C2500ABE362 /* ViewController.m */,
+				874E4C4018FA9C2500ABE362 /* Images.xcassets */,
+				874E4C2C18FA9C2500ABE362 /* Supporting Files */,
+			);
+			path = "NSString+LevenshteinDistanceDemo";
+			sourceTree = "<group>";
+		};
+		874E4C2C18FA9C2500ABE362 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				874E4C2D18FA9C2500ABE362 /* NSString+LevenshteinDistanceDemo-Info.plist */,
+				874E4C2E18FA9C2500ABE362 /* InfoPlist.strings */,
+				874E4C3118FA9C2500ABE362 /* main.m */,
+				874E4C3318FA9C2500ABE362 /* NSString+LevenshteinDistanceDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		874E4C4D18FA9C2500ABE362 /* NSString+LevenshteinDistanceDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				874E4C5318FA9C2500ABE362 /* NSString_LevenshteinDistanceDemoTests.m */,
+				874E4C4E18FA9C2500ABE362 /* Supporting Files */,
+			);
+			path = "NSString+LevenshteinDistanceDemoTests";
+			sourceTree = "<group>";
+		};
+		874E4C4E18FA9C2500ABE362 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				874E4C4F18FA9C2500ABE362 /* NSString+LevenshteinDistanceDemoTests-Info.plist */,
+				874E4C5018FA9C2500ABE362 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		874E4C2118FA9C2500ABE362 /* NSString+LevenshteinDistanceDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874E4C5718FA9C2500ABE362 /* Build configuration list for PBXNativeTarget "NSString+LevenshteinDistanceDemo" */;
+			buildPhases = (
+				7474441DCE9A40D1BE6C0D3E /* Check Pods Manifest.lock */,
+				874E4C1E18FA9C2500ABE362 /* Sources */,
+				874E4C1F18FA9C2500ABE362 /* Frameworks */,
+				874E4C2018FA9C2500ABE362 /* Resources */,
+				3D057F2169BA4BEFA6238041 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSString+LevenshteinDistanceDemo";
+			productName = "NSString+LevenshteinDistanceDemo";
+			productReference = 874E4C2218FA9C2500ABE362 /* NSString+LevenshteinDistanceDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		874E4C4518FA9C2500ABE362 /* NSString+LevenshteinDistanceDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874E4C5A18FA9C2500ABE362 /* Build configuration list for PBXNativeTarget "NSString+LevenshteinDistanceDemoTests" */;
+			buildPhases = (
+				874E4C4218FA9C2500ABE362 /* Sources */,
+				874E4C4318FA9C2500ABE362 /* Frameworks */,
+				874E4C4418FA9C2500ABE362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				874E4C4C18FA9C2500ABE362 /* PBXTargetDependency */,
+			);
+			name = "NSString+LevenshteinDistanceDemoTests";
+			productName = "NSString+LevenshteinDistanceDemoTests";
+			productReference = 874E4C4618FA9C2500ABE362 /* NSString+LevenshteinDistanceDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		874E4C1A18FA9C2500ABE362 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = koyachi;
+				TargetAttributes = {
+					874E4C4518FA9C2500ABE362 = {
+						TestTargetID = 874E4C2118FA9C2500ABE362;
+					};
+				};
+			};
+			buildConfigurationList = 874E4C1D18FA9C2500ABE362 /* Build configuration list for PBXProject "NSString+LevenshteinDistanceDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 874E4C1918FA9C2500ABE362;
+			productRefGroup = 874E4C2318FA9C2500ABE362 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				874E4C2118FA9C2500ABE362 /* NSString+LevenshteinDistanceDemo */,
+				874E4C4518FA9C2500ABE362 /* NSString+LevenshteinDistanceDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		874E4C2018FA9C2500ABE362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874E4C3C18FA9C2500ABE362 /* Main_iPad.storyboard in Resources */,
+				874E4C4118FA9C2500ABE362 /* Images.xcassets in Resources */,
+				874E4C3918FA9C2500ABE362 /* Main_iPhone.storyboard in Resources */,
+				874E4C3018FA9C2500ABE362 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874E4C4418FA9C2500ABE362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874E4C5218FA9C2500ABE362 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D057F2169BA4BEFA6238041 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7474441DCE9A40D1BE6C0D3E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		874E4C1E18FA9C2500ABE362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874E4C3F18FA9C2500ABE362 /* ViewController.m in Sources */,
+				874E4C3618FA9C2500ABE362 /* AppDelegate.m in Sources */,
+				874E4C3218FA9C2500ABE362 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874E4C4218FA9C2500ABE362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874E4C5418FA9C2500ABE362 /* NSString_LevenshteinDistanceDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		874E4C4C18FA9C2500ABE362 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 874E4C2118FA9C2500ABE362 /* NSString+LevenshteinDistanceDemo */;
+			targetProxy = 874E4C4B18FA9C2500ABE362 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		874E4C2E18FA9C2500ABE362 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874E4C2F18FA9C2500ABE362 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		874E4C3718FA9C2500ABE362 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874E4C3818FA9C2500ABE362 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		874E4C3A18FA9C2500ABE362 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874E4C3B18FA9C2500ABE362 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		874E4C5018FA9C2500ABE362 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874E4C5118FA9C2500ABE362 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		874E4C5518FA9C2500ABE362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		874E4C5618FA9C2500ABE362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		874E4C5818FA9C2500ABE362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C90B23614FED4ABABB582A25 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSString+LevenshteinDistanceDemo/NSString+LevenshteinDistanceDemo-Prefix.pch";
+				INFOPLIST_FILE = "NSString+LevenshteinDistanceDemo/NSString+LevenshteinDistanceDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		874E4C5918FA9C2500ABE362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C90B23614FED4ABABB582A25 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSString+LevenshteinDistanceDemo/NSString+LevenshteinDistanceDemo-Prefix.pch";
+				INFOPLIST_FILE = "NSString+LevenshteinDistanceDemo/NSString+LevenshteinDistanceDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		874E4C5B18FA9C2500ABE362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C90B23614FED4ABABB582A25 /* Pods.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSString+LevenshteinDistanceDemo.app/NSString+LevenshteinDistanceDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSString+LevenshteinDistanceDemo/NSString+LevenshteinDistanceDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NSString+LevenshteinDistanceDemoTests/NSString+LevenshteinDistanceDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		874E4C5C18FA9C2500ABE362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSString+LevenshteinDistanceDemo.app/NSString+LevenshteinDistanceDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSString+LevenshteinDistanceDemo/NSString+LevenshteinDistanceDemo-Prefix.pch";
+				INFOPLIST_FILE = "NSString+LevenshteinDistanceDemoTests/NSString+LevenshteinDistanceDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		874E4C1D18FA9C2500ABE362 /* Build configuration list for PBXProject "NSString+LevenshteinDistanceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874E4C5518FA9C2500ABE362 /* Debug */,
+				874E4C5618FA9C2500ABE362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		874E4C5718FA9C2500ABE362 /* Build configuration list for PBXNativeTarget "NSString+LevenshteinDistanceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874E4C5818FA9C2500ABE362 /* Debug */,
+				874E4C5918FA9C2500ABE362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		874E4C5A18FA9C2500ABE362 /* Build configuration list for PBXNativeTarget "NSString+LevenshteinDistanceDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874E4C5B18FA9C2500ABE362 /* Debug */,
+				874E4C5C18FA9C2500ABE362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 874E4C1A18FA9C2500ABE362 /* Project object */;
+}

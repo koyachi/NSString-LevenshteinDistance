@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSString+LevenshteinDistance.h"
 
 @interface ViewController ()
 
@@ -17,13 +18,26 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    self.dstTextField.placeholder = @"foo";
+    self.dstTextField.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (BOOL)textField:(UITextField *)textiField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
+{
+    if ([string isEqualToString:@"\n"]) {
+        NSUInteger distance = [self.srcLabel.text levenshteinDistanceTo:self.dstTextField.text];
+        self.distanceValueLabel.text = @(distance).stringValue;
+        NSLog(@"distance = %d", distance);
+    }
+
+    return YES;
 }
 
 @end

@@ -3,11 +3,20 @@
 [![Version](http://cocoapod-badges.herokuapp.com/v/NSString+LevenshteinDistance/badge.png)](http://cocoadocs.org/docsets/NSString+LevenshteinDistance)
 [![Platform](http://cocoapod-badges.herokuapp.com/p/NSString+LevenshteinDistance/badge.png)](http://cocoadocs.org/docsets/NSString+LevenshteinDistance)
 
+## Description
+
+This category adds one method to NSString:
+
+- (NSUInteger)levenshteinDistanceTo:(NSString *)otherString;
+
 ## Usage
 
-To run the example project; clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+```objective-c
+NSString *a = @"foo@bar.com";
+NSString *b = @"foo@bar.con";
+NSUInteger distance = [a levenshteinDistanceTo:b];
+XCTAssert(distance == 1, @"distance == 1");
+```
 
 ## Installation
 

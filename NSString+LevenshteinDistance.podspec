@@ -1,9 +1,3 @@
-#
-# Be sure to run `pod lib lint NAME.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
 Pod::Spec.new do |s|
   s.name             = "NSString+LevenshteinDistance"
   s.version          = "0.0.1"
@@ -13,7 +7,7 @@ Pod::Spec.new do |s|
                        
                        - http://en.wikipedia.org/wiki/Levenshtein_distance
                        DESC
-  s.homepage         = "http://github.com/koyachi/NSString-LevenshteinDistance"
+  s.homepage         = "https://github.com/koyachi/NSString-LevenshteinDistance"
   s.license          = 'MIT'
   s.author           = { "koyachi" => "rtk2106@gmail.com" }
   s.source           = { :git => "https://github.com/koyachi/NSString-LevenshteinDistance.git", :tag => s.version.to_s }
